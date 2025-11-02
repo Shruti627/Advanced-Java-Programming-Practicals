@@ -1,0 +1,36 @@
+Steps to follow for Lab Prog No-4: 
+1). Create .java file
+2). compile it so that .class file 
+3). Run the Program so that .db file will get created.(java -cp .;sqlite-jdbc-3.50.3.0.jar SimpleJDBC)
+3). Take teh OUTPUT:
+
+
+
+D:\Poonam\Zeal College\Adv. Java\JAVA_Practical\Lab> java -cp .;sqlite-jdbc-3.50.3.0.jar SimpleJDBC
+Step 1: Loading JDBC Driver...
+Driver loaded successfully!
+
+Step 2: Connecting to database...
+Connected successfully!
+
+Step 3: Creating table...
+Table created!
+
+Step 4: Inserting data...
+Inserted: AAA
+Inserted: BBB
+Inserted: CCC
+
+Step 5: Retrieving all data...
+=====================================
+ID      Name                    Salary
+=====================================
+1       AAA             50000.0
+2       BBB             60000.0
+3       CCC             55000.0
+=====================================
+
+Step 6: Closing connection...
+Connection closed. Program finished!
+
+D:\Poonam\Zeal College\Adv. Java\JAVA_Practical\Lab>

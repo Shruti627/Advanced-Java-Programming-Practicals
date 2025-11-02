@@ -1,0 +1,49 @@
+steps to follow for Lab Prog-5: 
+
+1.) Create all 4 .java Files in one same folder.
+2.) Compile it all 4 files.
+
+
+D:\Poonam\Zeal College\Adv. Java\JAVA_Practical\Lab\Lab Prog-5>javac PalindromeInterface.java
+
+D:\Poonam\Zeal College\Adv. Java\JAVA_Practical\Lab\Lab Prog-5>javac PalindromeServer.java
+
+D:\Poonam\Zeal College\Adv. Java\JAVA_Practical\Lab\Lab Prog-5>javac PalindromeImpl.java
+
+D:\Poonam\Zeal College\Adv. Java\JAVA_Practical\Lab\Lab Prog-5>javac PalindromeClient.java
+
+
+3.) Now run only server file in one command prompt & make it open. Then in another command prompt, run the client files: 
+
+D:\Poonam\Zeal College\Adv. Java\JAVA_Practical\Lab\Lab Prog-5>java PalindromeServer
+RMI registry created on port 1099
+Palindrome Server is ready!
+Waiting for client requests...
+
+4.) Now run Client file in another command prompt by: java PalindromeClient
+
+
+D:\Poonam\Zeal College\Adv. Java\JAVA_Practical\Lab\Lab Prog-5>java PalindromeClient
+=== Palindrome Checker Client ===
+Enter 'quit' to exit
+
+Enter a string or number: madam
+'madam' is a PALINDROME!
+
+Enter a string or number: teacher
+'teacher' is NOT a palindrome.
+
+Enter a string or number: 171
+'171' is a PALINDROME!
+
+Enter a string or number: 6789
+'6789' is NOT a palindrome.
+
+Enter a string or number: quit
+Goodbye!
+
+D:\Poonam\Zeal College\Adv. Java\JAVA_Practical\Lab\Lab Prog-5>
+
+NOTE: Always Run Server Program first & then Client Program but in different Command Prompt.
+
+

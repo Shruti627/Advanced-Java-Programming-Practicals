@@ -1,0 +1,51 @@
+Steps to follow for Lab Prog-9:
+1). Create following Directory Structure:
+	C:\LabPrograms\No-9\
+    ├── StudentDB.java
+    ├── StudentDB.class (automatically generated after compilation)
+    ├── sqlite-jdbc-3.50.3.0.jar (You have to download & Paste it in the same folder where .java file is created)
+    |				  (link to download: https://github.com/xerial/sqlite-jdbc/releases)
+    └── students.db (Created automatically when you run the program!)
+
+	So, only one .java file you need to create & .jar file you need to download & paste it.
+
+2). How to compile: Go to command prompt where your program Directory is :
+	command to compile: javac StudentDB.java
+
+3). How to Run : java -cp .;sqlite-jdbc-3.50.3.0.jar StudentDB
+
+4). Run the program & take the output like this : 
+	
+	=== Student Database ===
+1. Add Student
+2. View All Students
+3. Search Student
+4. Delete Student
+5. Exit
+Enter choice: 1
+Enter name: veer
+Enter age: 3
+Enter grade: A
+Student added successfully!
+
+=== Student Database ===
+1. Add Student
+2. View All Students
+3. Search Student
+4. Delete Student
+5. Exit
+Enter choice: 2
+
+--- All Students ---
+ID      Name            Age     Grade
+------------------------------------
+2       poo             34      e
+3       veer            3       A
+
+=== Student Database ===
+1. Add Student
+2. View All Students
+3. Search Student
+4. Delete Student
+5. Exit
+Enter choice:
