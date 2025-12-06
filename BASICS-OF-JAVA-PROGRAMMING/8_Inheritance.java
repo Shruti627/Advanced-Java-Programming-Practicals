@@ -12,7 +12,7 @@ class Person extends Teacher{
 
 public void listen(){
 
-	System.out.println("Listening ....");
+	System.out.println("Listening to teacher....");
 }
 
 
